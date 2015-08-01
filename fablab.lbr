@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7493,13 +7493,13 @@ For boards designed to be plugged directly into a USB slot. If possible, ensure 
 <pin name="P$10" x="15.24" y="5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="1X07">
-<pin name="P$1" x="-5.08" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="P$2" x="-5.08" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="P$3" x="-5.08" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="P$4" x="-5.08" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="P$5" x="-5.08" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="P$6" x="-5.08" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="P$7" x="-5.08" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="P$1" x="-10.16" y="7.62" visible="off" length="middle"/>
+<pin name="P$2" x="-10.16" y="5.08" visible="off" length="middle"/>
+<pin name="P$3" x="-10.16" y="2.54" visible="off" length="middle"/>
+<pin name="P$4" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="P$5" x="-10.16" y="-2.54" visible="off" length="middle"/>
+<pin name="P$6" x="-10.16" y="-5.08" visible="off" length="middle"/>
+<pin name="P$7" x="-10.16" y="-7.62" visible="off" length="middle"/>
 <wire x1="-5.08" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="0" y1="-10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
 <wire x1="0" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
